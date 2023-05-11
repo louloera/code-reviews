@@ -1,7 +1,6 @@
 import pytest
 from functions.merge_sorted_lists import merge_sorted_lists
 
-
 def test_for_1_and_2():
     # Arrange
     l1 = [1]
@@ -36,3 +35,4 @@ def test_for_1_2_3_and_4_5_6():
 
     # Assert
     assert answer == [1, 2, 3, 4, 5, 6]
+
